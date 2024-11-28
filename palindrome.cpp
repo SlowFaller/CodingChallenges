@@ -10,11 +10,11 @@ namespace RUtility
     {
         public:
 
-        bool checkPalindrome(int n)
+        bool checkPalindrome(long n)
         {
-            int reverse = 0;
+            long reverse = 0;
 
-            int temp = n;
+            long temp = n;
             while (temp != 0)
             {
                 reverse = (reverse * 10) + (temp % 10);
@@ -42,9 +42,9 @@ namespace RUtility
 
 int main()
 {
-    int testNumber1 = 1234554321;
-    int testNumber2 = 12345654321;
-    int testNumber3 = 12345432;
+    long testNumber1 = 1234554321;
+    long testNumber2 = 12345654321;
+    long testNumber3 = 12345432;
     string testString1 = "abba";
     string testString2 = "deified";
     string testString3 = "Jumbo";
@@ -57,5 +57,7 @@ int main()
     cout << "Testing " << testString1 << ", Is Palindrome: " << pc.checkPalindrome(testString1) << endl;
     cout << "Testing " << testString2 << ", Is Palindrome: " << pc.checkPalindrome(testString2) << endl;
     cout << "Testing " << testString3 << ", Is Palindrome: " << pc.checkPalindrome(testString3) << endl;
+
+    return 0;
 }
 
