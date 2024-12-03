@@ -8,9 +8,9 @@ namespace RUtility
     public:
         PalindromeChecker();
         ~PalindromeChecker();
-        void CheckPalindrome(int);
-        void CheckPalindrome(long);
-        void CheckPalindrome(std::string);
+        bool IsPalindrome(int);
+        bool IsPalindrome(long);
+        bool IsPalindrome(std::string);
     };
     
     PalindromeChecker::PalindromeChecker()

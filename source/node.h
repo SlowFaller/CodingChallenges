@@ -5,7 +5,7 @@ namespace RUtility
     class Node
     {
     private:
-        std::unique_ptr<Node> node;
+        int data;
     public:
         Node();
         ~Node();

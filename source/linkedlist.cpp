@@ -1,8 +1,8 @@
-#include "linkedList.h"
+#include "linkedlist.h"
 
 namespace RUtility
 {
-    LinkedList::LinkedList() : 
+    LinkedList::LinkedList()
     {
     }
 
