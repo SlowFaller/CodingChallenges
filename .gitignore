@@ -34,9 +34,5 @@
 # VSCODE
 .vscode
 .vscode/*
-.vscode/c_cpp_properties.json
-
-.vscode/c_cpp_properties.json
 /.vscode
-*.json
 .vscode/c_cpp_properties.json
